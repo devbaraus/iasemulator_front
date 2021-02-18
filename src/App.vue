@@ -10,7 +10,7 @@
                     </a>
                     <div id="nav" class="my-2 my-md-0 mr-md-3 nav nav-masthead justify-content-center">
                         <router-link class="p-2" to="/">Home</router-link>
-                        <router-link class="p-2" to="/docs">Docs</router-link>
+                        <router-link class="p-2" to="/docs">Documentação</router-link>
                     </div>
                 </div>
             </header>
@@ -19,7 +19,7 @@
             </main>
             <footer class="mastfoot mt-3">
                 <div class="inner">
-                    <p>Made by <a target="_blank" href="https://baraus.dev">Bruno de Araújo</a>.</p>
+                    <p>Criado por <a target="_blank" href="https://baraus.dev">Bruno de Araújo</a>.</p>
                 </div>
             </footer>
         </div>
