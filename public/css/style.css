@@ -1,0 +1,58 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.input-group-text {
+    width: 55px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+#mMap {
+    border-radius: 5px;
+    border: 1px solid #777;
+}
+
+.oflow-y {
+    display: block;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+
+.eg-table {
+    display: block;
+    max-height: 80px;
+    overflow-y: scroll;
+}
+
+button{
+    margin:1px;
+}
+
+.fn-table {
+    display: block;
+    height: 360px;
+    overflow-y: scroll;
+}
+
+.fn-table li:hover,
+.eg-table li:hover {
+    cursor: pointer;
+}
+
+.cur-pointer{
+    cursor: pointer;
+}
