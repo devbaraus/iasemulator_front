@@ -24,25 +24,25 @@ Cada posição de mémoria tem comprimento 32bits, os dados também possuem larg
 
 ## Função dos Registradores
 
-*   MBR – Memory Buffer Register – contém a palavra a ser armazenada na memória. Também é o registrador usado para receber uma palavra lida da memória. Todo o tráfego de e para a memória RAM deve passar pelo MBR;
+- MBR – Memory Buffer Register – contém a palavra a ser armazenada na memória. Também é o registrador usado para receber uma palavra lida da memória. Todo o tráfego de e para a memória RAM deve passar pelo MBR;
 
-*   MAR – Memory Address Register – especifica o endereço de memória a ser lida da ou escrita na memória. Todo endereço de memória deve ser indicado nesse registrador antes da operação;
+- MAR – Memory Address Register – especifica o endereço de memória a ser lida da ou escrita na memória. Todo endereço de memória deve ser indicado nesse registrador antes da operação;
 
-*   IR – Instruction Register – contém o opcode da instrução sendo executada;
+- IR – Instruction Register – contém o opcode da instrução sendo executada;
 
-*   RO0 – Register Operand 0 – contém o primeiro operando registrador da instrução;
+- RO0 – Register Operand 0 – contém o primeiro operando registrador da instrução;
 
-*   RO1 – Register Operand 1 – contém o segundo operando registrador da instrução;
+- RO1 – Register Operand 1 – contém o segundo operando registrador da instrução;
 
-*   RO2 – Register Operand 2 – contém o terceiro operando registrador da instrução;
+- RO2 – Register Operand 2 – contém o terceiro operando registrador da instrução;
 
-*   IMM – Immediate – contém o operando imediato da instrução;
+- IMM – Immediate – contém o operando imediato da instrução;
 
-*   PC – Program Counter – contém o endereço da próxima palavra de memória com uma instrução a ser buscada. Caso não haja nenhum desvio condicional (conditional jumps), o PC deve ser incrementado em cada ciclo de instrução;
+- PC – Program Counter – contém o endereço da próxima palavra de memória com uma instrução a ser buscada. Caso não haja nenhum desvio condicional (conditional jumps), o PC deve ser incrementado em cada ciclo de instrução;
 
-*   R0…R3 – registradores de propósito geral utilizados para manter temporariamente os operandos na ALU;
+- R0…R3 – registradores de propósito geral utilizados para manter temporariamente os operandos na ALU;
 
-# Hexadecimal Registradores
+## Hexadecimal Registradores
 
 <table>
 
@@ -212,9 +212,9 @@ Cada posição de mémoria tem comprimento 32bits, os dados também possuem larg
 
 <td>COMPARE – compara a palavra no registrador X com a palavra no registrador Y e preenche os registradores internos E, L e G
 
-*   Se reg0 = reg1, então **E** = 1; senão **E** = 0;
-*   Se reg0 < reg1, então **L** = 1; senão **L** = 0;
-*   Se reg0 > reg1, então **G** = 1; senão **G** = 0.
+- Se reg0 = reg1, então **E** = 1; senão **E** = 0;
+- Se reg0 < reg1, então **L** = 1; senão **L** = 0;
+- Se reg0 > reg1, então **G** = 1; senão **G** = 0.
 
 </td>
 
