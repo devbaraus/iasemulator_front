@@ -429,7 +429,7 @@
       </div>
       <div class="row mt-auto">
         <div class="col">
-          <table class="oflow-y">
+          <table>
             <tbody id="mMapMemory"></tbody>
           </table>
         </div>
