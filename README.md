@@ -213,9 +213,9 @@ Cada posição de mémoria tem comprimento 32bits, os dados também possuem larg
 <td>
 <p>COMPARE – compara a palavra no registrador X com a palavra no registrador Y e preenche os registradores internos E, L e G</p>
 
-- Se reg0 = reg1, então **E** = 1; senão **E** = 0;</p>
-- Se reg0 < reg1, então **L** = 1; senão **L** = 0;</p>
-- Se reg0 > reg1, então **G** = 1; senão **G** = 0.</p>
+- Se reg0 = reg1, então <strong>E</strong> = 1; senão <strong>E</strong> = 0;</p>
+- Se reg0 < reg1, então <strong>L</strong> = 1; senão <strong>L</strong> = 0;</p>
+- Se reg0 > reg1, então  <strong>G</strong> = 1; senão <strong>G</strong> = 0.</p>
 
 </td>
 
